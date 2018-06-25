@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdapterKinds>
+    <AdapterKind adapterKindKey="VMWARE">
+        <ResourceKind resourceKindKey="VirtualMachine">
+            <Metric attrkey="cpu|capacity_contentionPct" label="" unit="" yellow="" orange="" red=""/>
+            <Metric attrkey="mem|host_contentionPct" label="" unit="" yellow="" orange="" red=""/>
+            <Metric attrkey="mem|balloonPct" label="" unit="" yellow="" orange="" red=""/>
+        </ResourceKind>
+    </AdapterKind>
+</AdapterKinds>
